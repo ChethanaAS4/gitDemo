@@ -1,8 +1,11 @@
 #!/usr/bin/bash
 
-num="2 4 6 8"
+echo "Printin \$0: $0"
+echo "Printin \$*: $*"
+echo "Printin \$@: $@"
+echo "Printin \$#: $#"
+echo "Printin \$$: $$"
+echo "Printin \$!: $!"
+echo "Printin \$?: $?"
 
-for i in $num
-do
-echo "$i"
-done
+echo "$1 and $2 are numbers"
