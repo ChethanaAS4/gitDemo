@@ -8,3 +8,6 @@ then
 else
     echo "Service '$service_name' not found."
 fi
+
+echo "Execution completed"
+echo"hi"
